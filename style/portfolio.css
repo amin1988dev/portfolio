@@ -1,0 +1,54 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-primary{
+    color: rgb(241, 151, 119);
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(241, 151, 119);
+    border: 0;
+    color:aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+.nav-title{
+    color: rgb(99, 94, 94);
+    font-size: 50px;
+    font-weight: 900px;
+}
+.header{
+    background-color: antiquewhite;
+}
+.banner{
+    padding: 30px 30px 3px 130px;
+    display: flex;
+}
+.banner .profile {
+    width: 250px;
+    padding: 30px 30px 3px 250px;
+    /*personal image, solid color, back-image, amin (padding left)*/
+   
+}
+.banner-content{
+
+}
